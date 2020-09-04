@@ -6,6 +6,7 @@ var projects = $("#projects");
 var comments = $("#comments");
 var contact = $("#contact");
 var me = $("#me");
+var me2 = $("#me2");
 var hire = $("#hire");
 var cv = $("#cv");
 var intro1 = $("#intro1");
@@ -59,28 +60,45 @@ function setLangTR() {
   contact.text("İLETİŞİM");
   lang.text("EN");
   me.text("BEN MOHAMMAD İLYAS KOHİSTANI");
+  me2.text("Full-Stack Web Geliştiricisi");
   hire.text("E-posta Göndermek");
   cv.text("CV Alın");
   intro1.text("KENDİMİ");
   intro2.text("TANITAYIM");
   intro3.text("");
-  intro4.text("");
-  intro5.text("");
+  intro4.text(
+    "17 yaşımdan beri bilgisayarlarla çalışıyorum. Yaklaşık 18 yaşındayken HTML'i, ardından CSS ve Javascript, PHP / MySQL, Java, VB uygulamaları, Ağ kurulumu ve benzerlerini keşfettiğimde programlamaya başladım."
+  );
+  intro5.text(
+    "Web tabanlı uygulamalar geliştirme konusunda üç yılı aşkın deneyime sahip tutkulu bir PHP geliştiricisiyim. Tasarım modülerliği ve kod esnekliğine odaklanan yüksek oranda özelleştirilebilir bir risk değerlendirme sistemi geliştirdim. Geliştirme yaşam döngüsünün tüm adımlarını ele aldım; gereksinim toplama / tahminlemeden müşteri desteği ve geliştirmelere kadar. Sorunsuz sonuçlar sağlamak için bir sürü iletişim aracını kullanan uzaktaki bir ekibin parçası olarak çalıştım. "
+  );
   review.text("CV'Yİ İNCELE");
   ex1.text("Yıllık");
   ex2.text("Çalışma");
   ex3.text("Deneyimi");
   call.text("ŞİMDİ ARA");
   ser1.text("HİZMETLERİMİZ");
-  ser2.text("");
-  ser3.text("");
-  ser4.text("");
-  ser5.text("");
-  ser6.text("");
-  ser7.text("");
-  ser8.text("");
-  ser9.text("");
-  ser10.text("");
+  ser2.text(
+    "Dünyanın her yerinden müşterilere özel yazılım tasarım ve geliştirme hizmetleri sunarak büyük fikirleri istisnai ürünlere dönüştürüyorum."
+  );
+  ser3.text("WEB GELİŞTİRME");
+  ser4.text(
+    "Bir şirket web sitesine veya kişisel bir bloga mı ihtiyacınız var? İşletmenizin hazır yazılımların karşılayamadığı özel ihtiyaçlarını karşılamak için özel yazılım çözümleri geliştiriyoruz. "
+  );
+  ser5.text("UI/UX TASARIMI");
+
+  ser6.text(
+    "Başarılı bir dijital ürünü hayata geçirmek için ihtiyaç duyabileceğiniz her şeyi yapıyoruz: kullanıcı araştırması, ürün stratejisi, kullanıcı arayüzü ve kullanıcı deneyimi tasarımı, kullanılabilirlik testi, prototip oluşturma, web tasarımı ve geliştirme."
+  );
+  ser7.text("MOBİL UYGULAMALAR");
+
+  ser8.text(
+    "Mobil uygulama geliştirmede sağlam uzmanlığı kullanan ekibimiz, herhangi bir cihazda pratik ve sorunsuz deneyimler oluşturmanıza ve işletmeniz için en iyi mobil teknolojiyi elde etmenize yardımcı olacaktır."
+  );
+  ser9.text("BARINDRIMA");
+  ser10.text(
+    "Şirketinizin web sitesi veya kişisel blogunuz için yeni bir web barındırma hizmetine mi ihtiyacınız var? Piyasadaki en iyi seçenekleri test ettik ve sizin için en iyi planımız var."
+  );
 
   pr1.text("SON YAPILAN PROJELER");
   pr2.text("KALİTELİ İŞ");
@@ -90,14 +108,27 @@ function setLangTR() {
   pr6.text("TAKİP ETME");
   pr7.text("YAKLAŞAN");
   com1.text("MÜŞTERİLER BENİM HAKKIMDA DİYOR");
-  com2.text("");
-  com3.text("");
-  com4.text("");
-  com5.text("");
-  com6.text("");
-  com7.text("");
-  com8.text("");
-
+  com2.text(
+    '"İyi iletişim becerileri doğrudan iyi gelişim becerileri ile ilişkilidir. Harika bir geliştirici sorunları net bir şekilde anlayabilir, hipotezlere ayırabilir ve tutarlı bir şekilde çözümler önerebilir. Bunların hepsini Mohammad İlyas Kohistani\'de görebiliriz."'
+  );
+  com3.text(
+    "Hırslı bir problem çözücü ve yenilikçi, optimize edilmiş çözüm arayan."
+  );
+  com4.text(
+    "Harika bir geliştirici ürünlerinin başarısına önem verir. Olumlu, işi bitirmek ve her gün elinden gelenin en iyisini yapmak için uzağa gitmeye istekli."
+  );
+  com5.text(
+    "İlyas Kohistani'yi son 4 yıldır tanıyorum ve onunla projelerde çalışmak her zaman büyük zevk."
+  );
+  com4.text(
+    "Hırslı bir problem çözücü ve yenilikçi, optimize edilmiş çözüm arayan."
+  );
+  com5.text(
+    "Harika bir geliştirici ürünlerinin başarısına önem verir. Olumlu, işi bitirmek ve her gün elinden gelenin en iyisini yapmak için uzağa gitmeye istekli."
+  );
+  com6.text(
+    "İlyas Kohistani'yi son 4 yıldır tanıyorum ve onunla projelerde çalışmak her zaman büyük zevk."
+  );
   sub1.text("HERHANGİ BİR YERDEN GÜNCELLEME ALIN");
   sub2.text("En son güncellemelerimizi almak için abone olun.");
   sub3.text("Abone ol");
@@ -117,7 +148,8 @@ function setLangEN() {
   contact.text("CONTACT");
   lang.text("TR");
   me.text("I AM MOHAMMAD ILYAS KOHISTANI");
-  hire.text("Send Mail");
+  me2.text("Full-Stack Web Developer");
+  hire.text("Send Email");
   cv.text("Get CV");
   intro1.text("LET ME");
   intro2.text("INTRODUCE");
@@ -138,18 +170,18 @@ function setLangEN() {
     "I provide custom software design and development services to clients from all around the world, transforming big ideas into exceptional products."
   );
   ser3.text("WEB DEVELOPMENT");
+  ser5.text("UI/UX DESIGN");
+  ser7.text("MOBILE APPS");
+  ser9.text("Hosting");
   ser4.text(
     "Do you need a company website or personal blog? We are building bespoke software solutions to meet the specific needs of your business that off-the-shelf software can't."
   );
-  ser5.text("UI/UX DESIGN");
   ser6.text(
     "We do everything you might need to bring a successful digital product to life: user research, product strategy, user interface, and user experience design, usability testing, prototyping, web design and development."
   );
-  ser7.text("MOBILE APPS");
   ser8.text(
     "Using solid expertise in mobile apps development, our team will help you create practical and seamless experiences on any device and get the best of mobile technology for your business."
   );
-  ser9.text("DEPLOYMENT");
   ser10.text(
     "Need a new web hosting service for your company website or personal blog? We've tested the best options on the market and We have best plan for you."
   );
@@ -178,7 +210,7 @@ function setLangEN() {
     "An ambitious problem solver and innovative opimized solution seeker."
   );
   com7.text(
-    " A great programmer cares about their product’s success. He is positive, willing to go the distance to get the job done and bring his best every day."
+    "A great programmer cares about their product’s success. He is positive, willing to go the distance to get the job done and bring his best every day."
   );
   com8.text(
     "I have known Ilyas Kohistani over the last 4 years and always a pleasure working with him on any project."
@@ -196,9 +228,9 @@ function setLangEN() {
 
 $(document).ready(function () {
   $.get(
-    "http://ip-api.com/json",
+    "https://api.ipdata.co?api-key=test",
     function (response) {
-      if (response.country === "Turkey") {
+      if (response.country_name === "Turkey") {
         setLangTR();
       }
     },

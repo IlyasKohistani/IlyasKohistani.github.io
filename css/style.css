@@ -20,7 +20,7 @@
 .header_area .main-menu .nav-item .nav-link {
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
-    padding: 1.7rem;
+    padding: 1.7rem 1.3rem;
     color: var(--title-color);
 }
 
@@ -177,7 +177,7 @@
 /* Services Area */
 
 .site-main .services-area {
-    padding: 7rem 2rem;
+    padding: 7rem 3rem 2rem;
 }
 
 .site-main .services-area .services-title {
@@ -190,9 +190,10 @@
 
 .site-main>.services-area .services {
     background: rgba(248, 252, 253, 0.973);
-    padding: 2rem 0;
-    width: 16rem;
-    margin: 5rem .5rem;
+    padding: 1.5rem 0;
+    margin: 0;
+    margin-bottom: 3.5rem;
+    width: 19rem;
     transition: box-shadow .7s ease;
 }
 
