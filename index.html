@@ -660,6 +660,17 @@
 
   <!--  Jquery js file  -->
   <script src="./js/jquery.3.4.1.js"></script>
+  <script>
+    jQuery.event.special.touchstart = {
+      setup: function (_, ns, handle) {
+        if (ns.includes("noPreventDefault")) {
+          this.addEventListener("touchstart", handle, { passive: false });
+        } else {
+          this.addEventListener("touchstart", handle, { passive: true });
+        }
+      }
+    };
+  </script>
 
   <!--  Bootstrap js file  -->
   <script src="./js/bootstrap.min.js"></script>
@@ -678,6 +689,7 @@
 
   <!--  languages javascript file  -->
   <script src="./js/lang.js"></script>
+
 </body>
 
 </html>
