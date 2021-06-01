@@ -67,7 +67,7 @@ function setLangTR() {
   intro2.text("TANITAYIM");
   intro3.text("");
   intro4.text(
-    "17 yaşımdan beri bilgisayarlarla çalışıyorum. Yaklaşık 18 yaşındayken HTML'i, ardından CSS ve Javascript, PHP / MySQL, Java, VB uygulamaları, Ağ kurulumu ve benzerlerini keşfettiğimde programlamaya başladım."
+    "10 yaşımdan beri bilgisayarlarla çalışıyorum. Yaklaşık 18 yaşındayken HTML'i, ardından CSS ve Javascript, PHP / MySQL, Java, VB uygulamaları, Ağ kurulumu ve benzerlerini keşfettiğimde programlamaya başladım."
   );
   intro5.text(
     "Web tabanlı uygulamalar geliştirme konusunda üç yılı aşkın deneyime sahip tutkulu bir PHP geliştiricisiyim. Tasarım modülerliği ve kod esnekliğine odaklanan yüksek oranda özelleştirilebilir bir risk değerlendirme sistemi geliştirdim. Geliştirme yaşam döngüsünün tüm adımlarını ele aldım; gereksinim toplama / tahminlemeden müşteri desteği ve geliştirmelere kadar. Sorunsuz sonuçlar sağlamak için bir sürü iletişim aracını kullanan uzaktaki bir ekibin parçası olarak çalıştım. "
@@ -155,7 +155,7 @@ function setLangEN() {
   intro2.text("INTRODUCE");
   intro3.text("MYSELF");
   intro4.text(
-    "I’ve been working with computers since I was about 17. I got into programming about 18 when I discovered HTML, then CSS and Javascript, PHP/MySQL, Java, VB applications, Network setup, and so on."
+    "I’ve been working with computers since I was about 10. I got into programming about 18 when I discovered HTML, then CSS and Javascript, PHP/MySQL, Java, VB applications, Network setup, and so on."
   );
   intro5.text(
     "I am a passionate full-stack PHP web developer with over three years of experience developing web based applications. Developed a highly customize-able, risk assessment system focused on design modularity and code flexibility. Handled all steps of the development lifecycle; from requirements gathering/estimating to customer support and enhancements. Worked as part of a remote team utilizing an array of communications tools to ensure seamless results."
