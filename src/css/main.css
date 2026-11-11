@@ -209,7 +209,7 @@ hr {
   display: block;
 }
 
-#nav a.download, #contact_info a.link {
+#nav a.download, #contact_info a.link, #projects_info a.link {
   text-decoration: underline;
 }
 
