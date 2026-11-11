@@ -209,8 +209,31 @@ hr {
   display: block;
 }
 
-#nav a:last-child {
+#nav a.download, #contact_info a.link {
   text-decoration: underline;
+}
+
+.to-top {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--orange-color);
+  border-radius: 50%;
+  color: var(--orange-color);
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.to-top svg {
+  width: 22px;
+  height: 22px;
+}
+
+.to-top:hover {
+  background-color: var(--orange-color);
+  color: var(--body-color);
+  transform: translateY(-3px);
 }
 
 #nav span {
@@ -335,6 +358,11 @@ input:checked + .slider:before {
 .volunteering {
   color: var(--blue-color) !important;
   border-color: var(--blue-color) !important;
+}
+
+.education {
+  color: #9b7ed9 !important;
+  border-color: #9b7ed9 !important;
 }
 
 .red {
